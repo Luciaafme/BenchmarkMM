@@ -11,7 +11,7 @@ plt.plot(matrix_sizes, times_c, label="C", marker='o', linewidth=2, markersize=8
 plt.plot(matrix_sizes, times_java, label="Java", marker='o', linewidth=2, markersize=8)
 plt.plot(matrix_sizes, times_python, label="Python", marker='o', linewidth=2, markersize=8)
 
-# Etiquetas de los ejes
+
 plt.xlabel("Matrix size", fontsize=12)
 plt.ylabel("Execution time (ms)", fontsize=12)
 plt.title("Comparison execution time with different matrix size", fontsize=14)
